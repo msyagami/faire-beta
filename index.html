@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Faire, a productivity web application.">
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300&family=Montserrat:wght@400&display=swap" rel="stylesheet">
+  <link rel="icon" href="https://msyagami.github.io/faire-beta/media/favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" href="https://msyagami.github.io/faire-beta/media/faire_ios.png">
+  <meta name="theme-color" content="#f3fe89"/>
+  <link rel="manifest" href="https://msyagami.github.io/faire-beta/manifest.json">
+  <link rel="stylesheet" href="https://msyagami.github.io/faire-beta/css/styles.min.css">
+  <script src="https://kit.fontawesome.com/d3c48b0328.js" crossorigin="anonymous"></script> 
+  <title>Faire ᵦ</title>
+</head>
+<body>
+  <div class="container center">
+      <div class="header">
+        <div class="clear">
+          <i class="fas fa-broom"></i>
+        </div>
+        <div class="center title">Faire <span class="alpha">α</span></div>
+        <div class="flow-right controls">
+          <span>All items: <span id="item-count">0</span></span>
+          <span>Items left: <span id="unchecked-count">0</span></span>
+        </div>
+        <br>
+      </div>
+      <input class="input center" type="text center" id="input" placeholder="Add something"> 
+    <ul id="todo-list" class="todo-list">
+      <template id="todo-item"> 
+        <li class="todo-container">
+           <input type="checkbox" class="todo-checkbox">
+           <label></label>
+        </li>
+      </template>
+    </ul>  
+  </div>
+
+      <!-- <script src="/js/swReg.js"></script>
+      <script src="/sw.js"></script> -->
+      <script src="https://msyagami.github.io/faire-beta/js/app.js"></script>
+</body>
+</html>
+

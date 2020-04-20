@@ -1,0 +1,178 @@
+@font-face {
+    font-family: "CharlieZonk";
+    src: url("https://msyagami.github.io/faire-web-app/fonts/Charlie_Zonk/CharlieZonk-wamP.eot"); /* IE9 Compat Modes */
+    src: url("https://msyagami.github.io/faire-web-app/fonts/Charlie_Zonk/CharlieZonk-wamP.eot#iefix") format("embedded-opentype"), /* IE6-IE8 */
+      url("https://msyagami.github.io/faire-web-app/fonts/Charlie_Zonk/CharlieZonk-wamP.otf") format("opentype"), /* Open Type Font */
+      url("https://msyagami.github.io/faire-web-app/fonts/Charlie_Zonk/CharlieZonk-wamP.svg") format("svg"), /* Legacy iOS */
+      url("https://msyagami.github.io/faire-web-app/fonts/Charlie_Zonk/CharlieZonk-wamP.ttf") format("truetype"), /* Safari, Android, iOS */
+      url("https://msyagami.github.io/faire-web-app/fonts/Charlie_Zonk/CharlieZonk-wamP.woff") format("woff"), /* Modern Browsers */
+      url("https://msyagami.github.io/faire-web-app/fonts/Charlie_Zonk/CharlieZonk-wamP.woff2") format("woff2"); /* Modern Browsers */
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+
+
+  html, body {
+    background-color: #eee;
+    margin: 0;
+    padding: 0; 
+  }
+  
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+  
+  .center {
+    align-self: center;
+  }
+
+  .header{
+    background: rgb(255,102,209);
+     background: -moz-linear-gradient(45deg, rgba(255,102,209,1) 0%, rgba(243,254,137,1) 100%);
+     background: -webkit-linear-gradient(45deg, rgba(255,102,209,1) 0%, rgba(243,254,137,1) 100%);
+     background: linear-gradient(45deg, rgba(255,102,209,1) 0%, rgba(243,254,137,1) 100%);
+     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ff66d1",endColorstr="#f3fe89",GradientType=1);
+     animation: color-rotate 300s;
+     animation-iteration-count: infinite; 
+     animation-direction: alternate;
+  }
+  
+  .flow-right {
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.5vh;
+  }
+
+  ::-webkit-scrollbar {
+    display: none;
+  }
+  .container {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    background-color: white;
+    height: 100vh;
+  }
+
+.title{
+    font-family: 'CharlieZonk';
+    font-size: 15vmin;
+    text-align: center;
+    padding-top: 2.5vh;
+}
+
+.alpha{
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 3vmin;
+}
+  
+  #input {
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 1vh;
+    padding: 1vh;
+    padding-right: 3.5vh;
+    border: 1px solid #000;
+    border-radius: 1em;
+    position: static;
+    outline: none;
+  }
+  
+  .todo-list {    
+    margin-top: 20px;
+    padding: 20px;
+    -ms-overflow-style: none;
+  }  
+
+  .todo-container{
+    width: auto;
+    min-height: 5vmin;
+    position: relative;
+    border-bottom: 1px solid #000;
+    list-style: none;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+  }
+  .todo-container i.co{
+    position: absolute;
+    font-size: 3.2vmin;
+    padding-left:5px;
+    left:15px;
+    top:10px;
+  }
+  .todo-container i.co:hover{
+    cursor: pointer;
+  }
+  .fa-check-circle{
+    color:#6eb200;
+  }
+  .todo-container p.text{
+    position: absolute;
+    padding:0;
+    margin:0;
+    font-size: 2.5vmin;
+    left:8vmin;
+    top:1vmin;
+    max-width:285px;
+    overflow: none;
+  }
+  .strikethrough{
+    text-decoration: line-through;
+    color : #ccc;
+  }
+
+::-webkit-input-placeholder { 
+  text-align: left; 
+}
+
+input:-moz-placeholder { 
+  text-align: left; 
+}
+
+  .todo-container i.de{
+    position: absolute;
+    font-size: 3vmin;
+    right:1.5vmin;
+    top:1vmin;
+  }
+  .todo-container i.de:hover{
+    color:#af0000;
+    cursor: pointer;  
+  }
+
+  .todo-container:first-of-type{
+    border-top: 1px solid #000;
+  }
+  
+  .clear{
+    width : 32px;
+    height: 32px;
+    position: absolute;
+    right:32px;
+    top: 32px;
+  }
+
+  .clear i{
+    font-size: 32px;
+    color: #000;
+  }
+  .clear i:hover{
+    cursor: pointer;
+    transform: rotate(-45deg);
+  }
+
+  @keyframes color-rotate {
+    from {
+        filter: hue-rotate(0deg);
+    }
+    to {
+        filter: hue-rotate(720deg);
+    }
+  }
+  
+  

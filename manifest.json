@@ -1,0 +1,22 @@
+{
+    "name": "Faireᵦₑₜₐ",
+    "short_name": "Faire",
+    "description": "Faire, a productivity web application.",
+    "icons": [
+      {
+        "src": "https://msyagami.github.io/faire-web-app/media/faire_192.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "https://msyagami.github.io/faire-web-app/media/faire_512.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ],
+    "start_url": "https://msyagami.github.io/faire-beta/",
+    "background_color": "#f3fe89",
+    "display": "standalone",
+    "scope": "https://msyagami.github.io/faire-beta/",
+    "theme_color": "#f3fe89"
+  }

@@ -1,5 +1,5 @@
-const staticCacheName = 'site-static-v3';
-const dynamicCacheName = 'site-dynamic-v2';
+const staticCacheName = 'site-static';
+const dynamicCacheName = 'site-dynamic';
 const assets = [
   '/',
   'https://msyagami.github.io/faire-beta/index.html',
@@ -8,12 +8,12 @@ const assets = [
   'https://msyagami.github.io/faire-beta/js/app.js',
   'https://msyagami.github.io/faire-beta/media/favicon.ico',
   'https://msyagami.github.io/faire-beta/js/vg_particles.js',
-  'https://msyagami.github.io/faire-web-app/fonts/Charlie_Zonk/CharlieZonk-wamP.eot',
-  'https://msyagami.github.io/faire-web-app/fonts/Charlie_Zonk/CharlieZonk-wamP.otf',
-  'https://msyagami.github.io/faire-web-app/fonts/Charlie_Zonk/CharlieZonk-wamP.svg',
-  'https://msyagami.github.io/faire-web-app/fonts/Charlie_Zonk/CharlieZonk-wamP.ttf',
-  'https://msyagami.github.io/faire-web-app/fonts/Charlie_Zonk/CharlieZonk-wamP.woff',
-  'https://msyagami.github.io/faire-web-app/fonts/Charlie_Zonk/CharlieZonk-wamP.woff2'
+  'https://msyagami.github.io/faire-beta/fonts/Charlie_Zonk/CharlieZonk-wamP.eot',
+  'https://msyagami.github.io/faire-beta/fonts/Charlie_Zonk/CharlieZonk-wamP.otf',
+  'https://msyagami.github.io/faire-beta/fonts/Charlie_Zonk/CharlieZonk-wamP.svg',
+  'https://msyagami.github.io/faire-beta/fonts/Charlie_Zonk/CharlieZonk-wamP.ttf',
+  'https://msyagami.github.io/faire-beta/fonts/Charlie_Zonk/CharlieZonk-wamP.woff',
+  'https://msyagami.github.io/faire-beta/fonts/Charlie_Zonk/CharlieZonk-wamP.woff2'
 ];
 
 // cache size limit function

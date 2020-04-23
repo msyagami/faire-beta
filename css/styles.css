@@ -43,7 +43,7 @@
   .flow-right {
     display: flex;
     justify-content: space-around;
-    font-size: 1.5vh;
+    font-size: 3vmin;
   }
 
   ::-webkit-scrollbar {
@@ -73,9 +73,9 @@
   
   #input {
     font-family: 'Montserrat', sans-serif;
-    margin-top: 1vh;
-    padding: 1vh;
-    padding-right: 3.5vh;
+    margin-top: 1.5vmin;
+    padding: 1vmin;
+    padding-right: 3.5vmin;
     border: 1px solid #000;
     border-radius: 1em;
     position: static;
@@ -101,9 +101,9 @@
   .todo-container i.co{
     position: absolute;
     font-size: 3.2vmin;
-    padding-left:5px;
-    left:15px;
-    top:10px;
+    padding-left:0.5vmin;
+    left:1.5vmin;
+    top:1vmin;
   }
   .todo-container i.co:hover{
     cursor: pointer;
@@ -150,15 +150,15 @@ input:-moz-placeholder {
   }
   
   .clear{
-    width : 32px;
-    height: 32px;
+    width : 3.3vmin;
+    height: 3.3vmin;
     position: absolute;
-    right:32px;
-    top: 32px;
+    right:3.3vmin;
+    top: 3.3vmin;
   }
 
   .clear i{
-    font-size: 32px;
+    font-size: 3.5vmin;
     color: #000;
   }
   .clear i:hover{
@@ -171,7 +171,7 @@ input:-moz-placeholder {
         filter: hue-rotate(0deg);
     }
     to {
-        filter: hue-rotate(720deg);
+        filter: hue-rotate(360deg);
     }
   }
   
